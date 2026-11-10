@@ -1,0 +1,15 @@
+{
+  "name": "aula-docker-postgres",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "criar-tabelas": "node criar-tabelas.js",
+    "verificar-tabelas": "node verificar-tabelas.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
+  }
+}
+
